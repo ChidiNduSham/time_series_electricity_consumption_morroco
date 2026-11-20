@@ -1,6 +1,6 @@
 # Electricity Consumption Analysis: Week 5 Data Science Project
 
-Statistical and time-series analysis of 52,416 ten-minute electricity readings from three zones in Morocco (1 January – 30 December 2017), completed for the AnalystLab Africa Experience Lab Internship Programme (Track 2: Data Science).
+Statistical and time-series analysis of 52,416 ten-minute electricity readings from three zones in Morocco.
 
 ## Questions answered
 
@@ -24,9 +24,9 @@ Data validation, hourly and daily mean aggregation, descriptive statistics, STL 
 
 | File | Purpose |
 |---|---|
-| `Week5_Data_Science_Analysis.ipynb` | Executed analysis notebook |
+| `Shammah_Ndubuisi_Week5_Data_Science_Analysis.ipynb` | Executed analysis notebook |
 | `report_figures.py` | Regenerates report charts and `results.json` |
-| `Week5_Data_Science_Report.docx` | Full report |
+| `Shammah_Ndubuisi_Week5_Data_Science_Report.docx` | Full report |
 | `data/powerconsumption.csv` | Source data (add before running) |
 | `data/powerconsumption_datadictionary.csv` | Data dictionary (optional; see notes) |
 
@@ -46,7 +46,6 @@ Tested with Python 3.12, pandas 3.0, NumPy 2.5, SciPy 1.18, statsmodels 0.15, Ma
 
 ## Notes and limitations
 
-- **One code change:** the notebook now loads the data dictionary only if the file exists, and continues with a message if it does not. Nothing else was altered.
 - **Units:** the interval basis of the recorded values is not established, so the analysis uses means and never sums readings into total energy.
 - **Coverage:** the data cover 364 days of one year, so annual seasonality cannot be established.
 - **Diffuse flows:** `GeneralDiffuseFlows` and `DiffuseFlows` are not interpreted because their meaning is not established.
