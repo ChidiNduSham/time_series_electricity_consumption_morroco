@@ -36,7 +36,7 @@ Data validation, hourly and daily mean aggregation, descriptive statistics, STL 
 pip install pandas numpy scipy statsmodels matplotlib plotly jupyter
 mkdir -p data figs assets
 # place powerconsumption.csv in data/
-jupyter notebook Week5_Data_Science_Analysis.ipynb
+jupyter notebook Shammah_Ndubuisi_Week5_Data_Science_Analysis.ipynb
 python report_figures.py
 ```
 
